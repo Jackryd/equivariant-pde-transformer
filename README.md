@@ -1,6 +1,6 @@
 # D4-Equivariant PDE Transformer
 
-Course project for **MMA440: Mathematical Structures of Deep Neural Networks**, by Jack Elliot Collier Ryder. I adapted PDE-Transformer to respect rotations and reflections of the square, then compared explicit equivariance with data augmentation, equivariance regularization, group averaging, and an FNO baseline on shallow-water forecasting.
+This is my final project for the course **MMA440: Mathematical Structures of Deep Neural Networks**. I adapted group-equivariant vision Transformer components to PDE-Transformer for forecasting solutions of the shallow-water equations. The model respects the symmetries of the square: rotations by multiples of 90° and reflections. The project compares explicit equivariance with data augmentation, equivariance regularization, group averaging, and an FNO baseline.
 
 **[Project PDF: Impact of Equivariance in Transformer-Based PDE Learning](docs/impact-of-equivariance.pdf)** — architecture, experiments, results, and conclusions.
 
