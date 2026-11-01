@@ -1,0 +1,13 @@
+numpy>=1.26,<2.0
+torch==2.4.1
+torchvision==0.19.1
+lightning>=2.2.5,<2.7
+matplotlib>=3.8
+pillow
+h5py>=3.11
+tqdm>=4.66
+pdetransformer==0.1.11
+diffusers==0.34.0
+transformers==4.46.3
+accelerate==0.34.2
+peft>=0.17,<0.18

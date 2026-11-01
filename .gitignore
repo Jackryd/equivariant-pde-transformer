@@ -1,0 +1,34 @@
+# Environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Local datasets, training outputs, and model weights
+data/
+datasets/
+output/
+checkpoints/
+lightning_logs/
+wandb/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+credentials*.json
+*service-account*.json
+wandb_key.json
+*.pem
+*.key
